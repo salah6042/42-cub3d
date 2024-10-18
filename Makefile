@@ -48,19 +48,11 @@ fclean: clean
 
 re: fclean all
 
-map:
+madina:
 	make
-	./cub3D maps/map.cub
+	./cub3D maps/madina.cub
 
-residential:
-	make
-	./cub3D maps/residential.cub
-
-huisjes:
-	make
-	./cub3D maps/huisjes.cub
-
-jungle:
+art:
 	make
 	./cub3D maps/jungle.cub
 
@@ -72,9 +64,9 @@ jungle2:
 	make
 	./cub3D maps/jungle2.cub
 
-trip:
+art:
 	make
-	./cub3D maps/trip.cub
+	./cub3D maps/art.cub
 
 map2:
 	make
@@ -83,10 +75,6 @@ map2:
 non:
 	make
 	./cub3D maps/mapss.cub
-
-wrongarg:
-	make
-	./cub3D maps/mapss.cub hallo
 
 debug:
 	make
