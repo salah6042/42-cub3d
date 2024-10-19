@@ -25,28 +25,6 @@ This project’s objectives:
    ./cub3D filename.cub
    ```
 
-### Some example cub3D environments
-Run one of the following commands to try different cub3D environments! 
-
-- make residential
-<p align="center">
-<img src="/pics/trim.gif" alt="animated" />
-</p>
-
-- make trip
-![Alt text](/pics/trip.png "Trip")
-
-- make jungle
-![Alt text](/pics/jungle.png "Jungle")
-
-- make huisjes
-
-- make jungle2
-
-- make map
-
-- make map2
-
 ### Behavior in invalid map cases
 - make invalid
 - make invalid_res
