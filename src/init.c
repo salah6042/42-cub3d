@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hsalah <hsalah@student.42.fr>              +#+  +:+       +#+        */
+/*   By: aymohamm <aymohamm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 11:47:35 by hsalah            #+#    #+#             */
-/*   Updated: 2024/10/13 11:47:36 by hsalah           ###   ########.fr       */
+/*   Updated: 2024/10/20 17:01:52 by aymohamm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ int	init_mlx(t_all *all)
 		return (error_msg("Resolution too big for screen!\n"));
 	}
 	all->img.win = mlx_new_window(all->img.mlx, all->info.x_size,
-			all->info.y_size, "Maria's cub3d");
+			all->info.y_size, "cub3D");
 	all->img.img = mlx_new_image(all->img.mlx, all->info.x_size,
 			all->info.y_size);
 	all->img.addr = mlx_get_data_addr(all->img.img, &all->img.bits_per_pixel,

@@ -52,40 +52,9 @@ madina:
 	make
 	./cub3D maps/madina.cub
 
-art:
+ayeshamk:
 	make
-	./cub3D maps/jungle.cub
+	./cub3D maps/ayeshamk.cub
 
-nontex:
-	make
-	./cub3D maps/nontex.cub
-
-jungle2:
-	make
-	./cub3D maps/jungle2.cub
-
-art:
-	make
-	./cub3D maps/art.cub
-
-map2:
-	make
-	./cub3D maps/map2.cub
-
-non:
-	make
-	./cub3D maps/mapss.cub
-
-debug:
-	make
-	./cub3D maps/valid_maps/valid_map_area_008.cub
-
-invalid:
-	make
-	./cub3D maps/invalid_maps/invalid_map_area_014.cub
-
-invalid_res:
-	make
-	./cub3D maps/invalid_maps/invalid_res_000.cub
 
 .PHONY: all clean fclean re debug
